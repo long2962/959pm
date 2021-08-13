@@ -78,7 +78,7 @@ p{
   display: inline-block;
   height: 140px !important;
   width: 100%;
-  background-color: lightskyblue;
+  background-image: url("blogo.png")
 }
 .dropcap {
   float: left;
