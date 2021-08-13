@@ -26,35 +26,30 @@
                     $("#gioithieu").addClass("active");
                     $("#thongke").removeClass("active");
                     $("#cachpc").removeClass("active");
-                    $("#about").removeClass("active");
                     $("#tintuc1").removeClass("active");
                 }
                 if($(this).scrollTop()>650){
                     $("#tintuc1").addClass("active");
                     $("#gioithieu").removeClass("active");
                     $("#cachpc").removeClass("active");
-                    $("#about").removeClass("active");
                     $("#thongke").removeClass("active");
                 }
                 if($(this).scrollTop()>1200){
                     $("#thongke").addClass("active");
                     $("#gioithieu").removeClass("active");
                     $("#cachpc").removeClass("active");
-                    $("#about").removeClass("active");
                     $("#tintuc1").removeClass("active");
                 }
                 if($(this).scrollTop()>1500){
                     $("#thongke").removeClass("active");
                     $("#gioithieu").removeClass("active");
                     $("#cachpc").addClass("active");
-                    $("#about").removeClass("active");
                     $("#tintuc1").removeClass("active");
                 }
                 if($(this).scrollTop()>4900){
                     $("#thongke").removeClass("active");
                     $("#gioithieu").removeClass("active");
                     $("#cachpc").removeClass("active");
-                    $("#about").addClass("active");
                     $("#tintuc1").removeClass("active");
                 }
             })
@@ -87,7 +82,6 @@ function myFunction() {
     <a id="tintuc1" href="#tintuc">Tin tức</a>
     <a id="thongke" href="#thongke1">Thống kê</a>
     <a id="cachpc" href="#cachpcc">Cách phòng tránh</a>
-    <a id="about" href="#about1">Về chúng tôi</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
 </a>
