@@ -19,7 +19,7 @@ main{
 }
 marquee{
   font-size: 3em;
-  color: yellow;
+  color: red;
   height: 140px;
   display: flex;
   align-items: center;
